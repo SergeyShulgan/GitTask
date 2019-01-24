@@ -1,5 +1,9 @@
 public with sharing class ContactActorInfoController {
 
+    public void B() {
+
+    }
+
     public Contact contact { get; set; }
     public static List<Payment__c> Payments { get; set; }
     public List<PaymentTable> PaymentTable { get; set; }
